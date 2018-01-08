@@ -1,0 +1,15 @@
+#i=open("demo1.txt","r",encoding="utf-8")
+#for s in i.readlines():
+#   print(s)
+#l=i.readline()
+#print(1,l)
+#l=i.readline()
+#print(2,l)
+#i.close()
+#l=i.readlines()
+#print(l[2])
+fileHandle = open( 'demo1.txt',"r",encoding="utf-8" )
+fileList = fileHandle.readlines()
+for fileLine in fileList:
+    print('>>', fileLine)
+    fileHandle.close()

@@ -1,0 +1,7 @@
+i=open("demo1.txt","r",encoding="utf-8")
+s=i.read(1)
+print(s)
+print("-"*20)
+s=i.read()
+print(s)
+i.close()
